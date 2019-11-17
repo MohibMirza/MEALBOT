@@ -3,6 +3,8 @@
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
+  width: 330;
+  height: 130;
 }
 
 .search {

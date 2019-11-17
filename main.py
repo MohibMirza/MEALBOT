@@ -12,5 +12,5 @@ soup = BeautifulSoup(r.content, 'html.parser')
 def find_food(food):
 	s = "";
 	if food in soup.find_all('div', 'hsp-accordian-container')
-		s = "They are serving " + food + " today!"
-	return s;
+		print "Content-Type: text/html"
+		print "They are serving " + food + " today!"
