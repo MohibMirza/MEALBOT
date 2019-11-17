@@ -1,0 +1,11 @@
+{
+	"name": "USC MealBot",
+	"version": "0.0.1",
+	"description": "My extension doesn't do anything yet!",
+	"manifest_version": 2
+}
+
+"background": {
+    "persistent": false,
+    "scripts": ["scripts/"]
+},
