@@ -4,7 +4,7 @@
 	"description": "My extension doesn't do anything yet!",
 	"background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": ["background.html"]
 	},
 	"browser_action": {
       "default_popup": "popup.html"
