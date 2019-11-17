@@ -1,7 +1,7 @@
 {
 	"name": "USC MealBot",
-	"version": "0.0.1",
-	"description": "My extension doesn't do anything yet!",
+	"version": "0.0.2",
+	"description": "Find any USC dining hall menu item with ease!",
 	"background": {
     "persistent": false,
     "scripts": ["background.js"]
