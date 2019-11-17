@@ -3,14 +3,21 @@
       <title>Meal Finder</title>
     </head>
     <body>
-        <input id="searchbar" onkeyup="search_food()" type="text" name="search" placeholder="Search food...">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <div class="wrap">
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="Search food...">
           <button type="submit" class="searchButton">
-        <iframe src=""></iframe>
-        <img src='./contents_image.png' id='contentsImage'>
-        <!-- <button id='sampleSecond' value='0.1'>Sample Second</button>
-        <button id='15min' value='15'>15 Minutes</button>
-        <button id='30min' value='30'>30 Minutes</button>
-        <button id='cancelAlarm'>Cancel Alarm</button> -->
-     <script src="popup.js"></script>
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <iframe src=""></iframe>
+      <img src='./contents_image.png' id='contentsImage'>
+      <!-- <button id='sampleSecond' value='0.1'>Sample Second</button>
+      <button id='15min' value='15'>15 Minutes</button>
+      <button id='30min' value='30'>30 Minutes</button>
+      <button id='cancelAlarm'>Cancel Alarm</button> -->
+      <script src="popup.js"></script>
     </body>
   </html>
